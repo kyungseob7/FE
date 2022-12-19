@@ -1,1 +1,74 @@
 @import url(./reset.css);
+@import url(./theme.css);
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  width: var(--all-width);
+  margin: 2.5rem auto;
+  border: 2px solid #aaa;
+}
+
+/* 제목 */
+h1 {
+  padding: 3.75rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.paper {
+  width: var(--container-width);
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: var(--updown-padding) var(--side-padding);
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 네비게이션 */
+.navigation {
+  position: relative;
+}
+
+.logo {
+  background-color: aquamarine;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu-list {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 4rem;
+  justify-content: space-between;
+}
+
+.main-menu {
+  background-color: brown;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 20rem;
+}
+.main-menu li{
+  display: inline-block;
+}
+
+.sub-menu {
+  background-color: yellowgreen;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 20rem;
+}
+
+.sub-menu li{
+  display: inline-block;
+}

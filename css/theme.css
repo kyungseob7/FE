@@ -1,0 +1,7 @@
+:root {
+  --all-width: 75rem; /* 1200px */
+  --container-width: 70rem; /* 1120px */
+
+  --side-padding: 1.625rem; /* 26px */
+  --updown-padding: 1rem; /* 16px */
+}
